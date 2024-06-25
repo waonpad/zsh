@@ -1,8 +1,3 @@
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-export PATH=$HOME/.nodebrew/current/bin:$PATH
 alias g='git'
 alias gs='git status'
 alias ga='git add'
