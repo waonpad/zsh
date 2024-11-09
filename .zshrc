@@ -1,5 +1,6 @@
 meow() {
   local sounds=("ネコと和解せよ" "にゃー" "にゃん" "にゃーん" "にゃーお" "ごろごろ" "しゃー！")
+  RANDOM=$$$(date +%s)
   local index=$((RANDOM % ${#sounds[@]}))
   echo ${sounds[$index]}
 }
